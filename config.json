@@ -1,0 +1,15 @@
+{
+   "fields":[
+      "AlarmName",
+      "ActionsEnabled",
+      "AlarmActions",
+      "MetricName",
+      "Namespace"
+   ],
+   "Excel_sheets_namespace":{
+      "AWS/EC2": {"name": "EC2", "data" : []},
+      "AWS/AutoScaling" : {"name": "Autoscaling", "data" : []}, 
+      "Generic": {"name": "Others", "data" : []}
+   },
+   "output_file": "aws_alarms.xlsx"
+}
